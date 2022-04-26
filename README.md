@@ -37,12 +37,12 @@ Future Features:
 ## Getting Started
    
 * Clone project repository
-> git clone https://github.com/030722-VA-SRE/Fentry-Martin.git
+> `git clone https://github.com/030722-VA-SRE/Fentry-Martin.git`
 * Create enviornment variables for your own database credentials(DB_URL,DB_USER,DB_PASS)
 * Navigate to repository on local device. Then navigate to project1 folder
-> cd project1
+> `cd project1`
 * Run docker-compose.yml to package and containerize
-> docker-compose up -d
+> `docker-compose up -d`
 
 ## Usage
 

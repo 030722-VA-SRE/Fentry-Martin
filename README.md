@@ -54,13 +54,13 @@ Use Postman or web browser to send requests
 * Get all cards
 > localhost:8080/cards
 * Get/create/update/delete card by id
-> localhost:8080/cards/{id#}
+> localhost:8080/cards/{id}
 > Get card by name
 > localhost:8080/cards/{name}
 > Get user list
 > localhost:8080/users
 > Get/create/update/delete user by id
-> localhost:8080/users/{id#}
+> localhost:8080/users/{id}
 * All POST, PUT, and DELETE requests can only be performed when logged in as admin. After login, copy JWT token from response header into Authorization in request header.
 * Use grafana to view logs and metrics using Loki and Prometheus
 > localhost:3000
